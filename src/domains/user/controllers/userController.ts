@@ -3,6 +3,12 @@ import { Controller, Get, Post, Route, Tags, Body, Path } from "tsoa";
 import { UserService } from "../services/userService";
 import { User } from "../models/userModel";
 
+/**
+ * @swagger
+ * tags:
+ *   name: User
+ *   description: User management
+ */
 @Route("users")
 @Tags("User")
 export class UserController extends Controller {
