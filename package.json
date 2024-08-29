@@ -1,12 +1,12 @@
 {
-  "name": "my-tsoa-project",
+  "name": "hexagonal-project",
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts",
-    "tsoa:generate": "tsoa spec && tsoa routes"
+    "tsoa:generate": "npx tsoa spec && npx tsoa routes"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
